@@ -6,6 +6,7 @@
      font-weight: weight;
      font-style: normal;
  }
+ /* share style */
  .btn-primary{
      background: #FF900E;
      /* width: 180px;
@@ -23,7 +24,10 @@
      background: rgba(252, 142, 16, 0.178);
      padding: 50px 230px;
  }
- 
+ .section-title{
+    color: #131313;
+    font-size: 1.8rem;
+ }
  /* nav style */
  nav{
      display: flex;
@@ -45,10 +49,8 @@
      font-size: 1rem;
      text-decoration: none;
  }
- .nav-title{
-     color: #131313;
-     font-size: 1.8rem;
- }
+
+
  /* banner section */
  .banner-content{
      max-width: 800px;
@@ -109,14 +111,45 @@
     font-weight: 700;
 
 }
-.teams-description{
+.teams-description, .fact-dis{
     color: #727272;
     font-size: 1rem;
     font-weight: 400;
     padding-bottom: 20px;
     width: 537px;
 }
+/* fact style */
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+ .facts-card-container .card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 20px;
+   
+ }
+ .facts-card-container .card-stats{
+    color: #424242;
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+ }
+ .facts-card-container .card-title{
+    color: #727272;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 5px;
+    
 
+ }
+/* .card img{
+    width: 45.221px;
+    height: 45.222px;
+} */
 
 
 
