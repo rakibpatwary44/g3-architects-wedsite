@@ -251,6 +251,9 @@
         grid-template-columns: 1fr;
        
     }
+    .footer-content{
+        margin: 10px;
+    }
     .feature-img img{
         width: 90%;
         margin-left: 0;
@@ -260,7 +263,8 @@
         max-width: 300px ;
     }
 
-    .sponsors-img-container{
+    .sponsors-img-container,
+    .footer-style{
         width: 165px;
         gap: 40px;
         align-items: center;
